@@ -19,9 +19,9 @@ if (earlyRegistration && age >= 21) {
 }
 
 //Provide race time and race number to specific runners that registered late and are adults.
-else if(!earlyRegistration && age >= 21 {
+else if(!earlyRegistration && age >= 21) {
     console.log(`Your race time will start at 11:00AM, and your race number is: ${raceNumber}`)
-})
+}
 
 //Provide race time and race number to specific runners that are younger than adults.
 else if(age < 21) {
